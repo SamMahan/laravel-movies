@@ -1,0 +1,19 @@
+{
+    "name": "samuelm/moviedb",
+    "description": "moviedb API package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Samuelm\\Moviedb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SamMahan",
+            "email": "sfmahan@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}

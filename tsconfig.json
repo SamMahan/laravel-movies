@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "preserveConstEnums": true,
+        "jsx": "react",
+        "esModuleInterop": true
+    },
+    "include": ["resources/js/**/*"],
+    "exclude": ["node_modules", "build"]
+}

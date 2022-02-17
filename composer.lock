@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "7cac2676533acac83f6383d21822091f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2532,6 +2532,31 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "samuelm/moviedb",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./moviedb",
+                "reference": "1bd9edc917ef4f479e119988ea5a99520eb043fa"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Samuelm\\Moviedb\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "SamMahan",
+                    "email": "sfmahan@gmail.com"
+                }
+            ],
+            "description": "moviedb API package",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7583,7 +7608,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "samuelm/moviedb": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
